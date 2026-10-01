@@ -123,7 +123,16 @@ dotnet test
 
 (Sesuaikan jika proyek memakai skrip lain.)
 
-## 11. Contoh prompt
+## 11. Catatan di Figma dan komentar kode
+
+- Kartu atau panel bertanda **"DEV • bukan UI"** adalah dokumentasi. Jangan ditampilkan di aplikasi dan jangan disalin menjadi komentar kode.
+- Yang dibuat menjadi UI hanya: label tombol, judul, isi tabel, dan teks pada layar yang digambar.
+- Komentar kode seminimal mungkin: satu baris `/// <summary>` untuk kelas publik dan tombol ikon (nama + fungsi). Jangan menulis komentar yang mengulang isi kode.
+- Ikon tanpa label wajib punya `ToolTip` dan `AutomationProperties.Name` sesuai kolom Fungsi di layar **KAMUS IKON & KONTROL**. `x:Name` dan enum mengikuti tabel itu.
+- Layar bertanda **[DIGANTIKAN]** tidak diimplementasi. Layar Artikel Detail layar penuh memakai `ArticleEditor` yang sama dengan artboard Pemberitahuan.
+- WORKSPACE 02 — Slide Aplikasi: node `4798-228` (lihat HANDOFF 06–09 di dalamnya).
+
+## 12. Contoh prompt
 
 ```
 Baca ATURAN BERSAMA: <link node 5248-323>
